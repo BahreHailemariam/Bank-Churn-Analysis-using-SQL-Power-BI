@@ -265,3 +265,20 @@ GROUP BY geography;
 
 ### 📊 Sample DAX Measures
 
+```DAX
+Churn Rate =
+DIVIDE(
+    CALCULATE(COUNTROWS(churn_labels), churn_labels[churn] = 1),
+    COUNTROWS(churn_labels)
+)
+
+AvgBalance_Churned =
+CALCULATE(AVERAGE(accounts[balance]), churn_labels[churn] = 1)
+
+ActiveCustomers =
+CALCULATE(
+    DISTINCTCOUNT(customers[customer_id]),
+    customers[IsActiveMember] = 1
+)
+
+```
