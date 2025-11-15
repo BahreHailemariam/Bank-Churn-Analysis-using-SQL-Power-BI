@@ -282,3 +282,55 @@ CALCULATE(
 )
 
 ```
+
+## 🧪 5. How to Run the Project
+### 1️⃣ Load CSVs into SQL
+
+Place the original CSV files in:
+
+data/raw/
+
+Execute:
+
+sqlite3 bank.db < sql/01_create_tables.sql
+sqlite3 bank.db < sql/02_cleaning.sql
+sqlite3 bank.db < sql/03_feature_engineering.sql
+sqlite3 bank.db < sql/04_churn_metrics.sql
+sqlite3 bank.db < sql/05_views_for_powerbi.sql
+
+### 2️⃣ Connect Power BI
+
+- Connect to your SQL database (`bank.db` or PostgreSQL/MySQL)
+
+- Import the analytical views
+
+- Build visuals or use the provided PBIX template
+
+## 🧩 Key Insights You Can Expect
+
+- High churn likely among low-engagement customers
+
+- Certain regions exhibiting higher churn
+
+- Customers with fewer products churn more
+
+- Low tenure customers at highest churn risk
+
+- Balance and credit score are strong churn predictors
+
+## 🔮 Future Enhancements
+
+- Add a Machine Learning churn prediction model
+
+- Integrate with CRM for automated retention triggers
+
+- Build Power BI drill-through for individual customer profiles
+
+- Add time-series forecasting on attrition trends
+
+## 🙌 Contributing
+
+Pull requests, suggestions, and feature ideas are welcome.
+
+
+
