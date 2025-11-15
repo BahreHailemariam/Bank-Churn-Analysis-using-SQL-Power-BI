@@ -126,3 +126,42 @@ SET Gender = CASE
              END;
 ```
 
+🧠 2. SQL Feature Engineering
+
+Script: `03_feature_engineering.sql`
+
+Created features:
+
+- **Churn_Flag**
+
+- **Age_Bucket** (18–30, 30–45, 45–60, 60+)
+
+- **Balance_Bucket**
+
+- **Activity_Flag**
+
+- **Product_Engagement_Score**
+
+- **Risk_Score** (composite metric)
+
+- **Customer_Segment** (Low/Medium/High Value)
+
+Example SQL:
+
+```sql
+SELECT
+    customer_id,
+    CASE
+        WHEN tenure < 12 THEN 'New'
+        WHEN tenure BETWEEN 12 AND 36 THEN 'Established'
+        ELSE 'Long-Term'
+    END AS Tenure_Segment,
+    CASE
+        WHEN balance <= 0 THEN 'No Balance'
+        WHEN balance < 50000 THEN 'Low Balance'
+        WHEN balance < 100000 THEN 'Mid Balance'
+        ELSE 'High Balance'
+    END AS Balance_Segment
+FROM accounts;
+
+```
