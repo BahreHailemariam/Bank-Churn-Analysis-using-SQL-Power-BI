@@ -130,7 +130,7 @@ SET Gender = CASE
 
 Script: `03_feature_engineering.sql`
 
-Created features:
+**Created features:**
 
 - **Churn_Flag**
 
@@ -165,3 +165,46 @@ SELECT
 FROM accounts;
 
 ```
+
+## 📊 3. Churn Metrics (SQL)
+
+Script: `04_churn_metrics.sql`
+
+**Key KPIs:**
+**Churn Rate**
+
+```sql
+
+SELECT 
+  SUM(CASE WHEN churn = 1 THEN 1 END) * 1.0 / COUNT(*) AS churn_rate
+FROM churn_labels;
+
+```
+**Average Balance of Churned Customers**
+```sql
+
+SELECT AVG(balance)
+FROM accounts a
+JOIN churn_labels c USING(customer_id)
+WHERE c.churn = 1;
+
+```
+
+**Churn by Geography**
+
+```sql
+SELECT geography, AVG(churn) AS churn_rate
+FROM customers
+JOIN churn_labels USING(customer_id)
+GROUP BY geography;
+
+```
+
+**Retention Metrics**
+
+- Repeat activity
+
+- Cross-sell adoption
+
+- Tenure breakdown
+
