@@ -31,7 +31,7 @@ This project is suitable for banks, credit unions, fintech firms, and analytics 
 
 ## 🧱 Project Architecture
 
-```sql
+```pgsql
 Raw Customer Data
       ↓
 SQL Cleaning & Transformation
@@ -69,3 +69,18 @@ Bank_Churn_Analysis/
 └── README.md
 
 ```
+
+## 🗄️ Data Model
+
+**Key Tables**
+
+| Table            | Description                                          |
+| ---------------- | ---------------------------------------------------- |
+| **customers**    | Demographics, geography, account creation date       |
+| **accounts**     | Account type, credit score, balance, tenure          |
+| **transactions** | Monthly or daily monetary activity                   |
+| **products**     | Banking products (loan, checking, credit card, etc.) |
+| **churn_labels** | Indicates whether a customer exited                  |
+
+
+
