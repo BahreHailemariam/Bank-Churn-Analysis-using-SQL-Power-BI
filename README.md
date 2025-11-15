@@ -82,5 +82,47 @@ Bank_Churn_Analysis/
 | **products**     | Banking products (loan, checking, credit card, etc.) |
 | **churn_labels** | Indicates whether a customer exited                  |
 
+### Important Variables
 
+- **Tenure** (months with bank)
+
+- **Balance**
+
+- **Credit Score**
+
+- **Products Count**
+
+- **IsActiveMember**
+
+- **Estimated Salary**
+
+- **Geography and Gender**
+
+## 🧼 1. SQL Data Cleaning
+
+Script: `02_cleaning.sql`
+
+Cleaning tasks include:
+
+- Handling missing values
+
+- Converting text numeric fields to integers
+
+- Standardizing country and gender codes
+
+- Creating a clean customer primary key
+
+- Removing duplicates
+
+- Fixing invalid ages, credit score ranges
+
+Example:
+
+```sql
+UPDATE customers
+SET Gender = CASE 
+                WHEN Gender IN ('M','Male') THEN 'Male'
+                WHEN Gender IN ('F','Female') THEN 'Female'
+             END;
+```
 
