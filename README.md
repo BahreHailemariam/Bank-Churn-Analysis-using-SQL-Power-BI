@@ -208,3 +208,60 @@ GROUP BY geography;
 
 - Tenure breakdown
 
+## 📈 4. Power BI Dashboard Overview
+
+### 📄 Pages
+### 1️⃣ Churn Overview
+
+- Overall churn %
+
+- Churn trend over time
+
+- Churn by geography
+
+- Churn by age/tenure/product
+
+### 2️⃣ Customer Segmentation
+
+- RFM-like segmentation for banking
+
+- High-risk vs low-risk clusters
+
+- Tenure segments
+
+### 3️⃣ Product Performance
+
+- Usage by churners vs non-churners
+
+- Product adoption funnel
+
+- Cross-sell analysis
+
+### 4️⃣ Financial Health
+
+- Balance trends
+
+- Credit score distribution
+
+- Salary & deposit patterns
+
+### 5️⃣ Churn Drivers & Insights
+
+- Feature importance (if ML included)
+
+- Distributions of churn-heavy features
+
+- Churn vs non-churn comparison
+
+### 6️⃣ Early Warning System
+
+- Accounts with decreasing activity
+
+- Low-product customers
+
+- High-risk geography + age cohorts
+
+- Alerts for targeting retention campaigns
+
+### 📊 Sample DAX Measures
+
