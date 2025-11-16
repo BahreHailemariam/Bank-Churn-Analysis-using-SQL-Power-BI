@@ -17,7 +17,7 @@ Provide a high-level snapshot of the bank’s churn performance at a glance—id
 
 - **Active Customers**
 
-- **Average Tenure
+- **Average Tenure**
 
 - **Average Balance (Churned vs Non-Churned)**
 
@@ -75,3 +75,62 @@ Provide a high-level snapshot of the bank’s churn performance at a glance—id
 - Age Range
 
 - Number of Products
+
+## 2️⃣ Customer Segmentation
+### 🎯 Purpose
+
+Understand **customer clusters**, behavioral patterns, and risk categories.
+
+### 📊 Visuals
+**1. RFM-Like Segmentation (Scatter Plot / Cluster Chart)**
+
+Even though RFM is common in e-commerce, it adapts well to banking:
+
+- **Recency:** Last active transaction
+
+- **Frequency:** Number of monthly transactions
+
+- **Monetary:** Balance or deposits
+
+Clusters:
+
+- **Champions**
+
+- **Loyal**
+
+- **At-Risk**
+
+- **Hibernating**
+
+- **Low-Value**
+
+**2. Risk Segmentation (Donut Chart)**
+
+- Low Risk
+
+- Medium Risk
+
+- High Risk
+
+- Very High Risk (Churn Likely)
+
+- If machine learning is included:
+
+- Risk probability bands (0–0.25, 0.25–0.5, 0.5–0.75, 0.75–1)
+
+**3. Tenure Segmentation (Column Chart)**
+
+- Tenure buckets
+
+- Shows customer aging profile
+
+- Highlights segments with highest churn
+
+**4. Customer Demographic Distribution (Stacked Chart)**
+
+- Gender x Age
+
+- Geography x Risk Score
+
+- Each segment includes churn overlay
+
