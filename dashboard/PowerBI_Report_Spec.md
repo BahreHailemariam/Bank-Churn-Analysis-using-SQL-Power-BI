@@ -350,3 +350,20 @@ Shows where the bank should prioritize retention efforts.
 - Date Range
 
 - Risk Level
+
+🎨 Visual Design Recommendations
+
+- Use consistent color scheme:
+
+   - **Red** = churn / risk
+
+   - **Green** = retained / healthy
+
+   - **Blue** = neutral / KPIs
+
+- Add drill-through pages for:
+
+   - Individual customer profile
+
+   - Region-specific churn report
+
