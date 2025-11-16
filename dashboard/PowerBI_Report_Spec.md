@@ -278,3 +278,60 @@ Examples:
 - “Mid-Tenure High-Value”
 
 - “At-Risk Credit Card Only Users”
+
+## 6️⃣ Early Warning System
+### 🎯 Purpose
+
+Practical risk detection dashboard for customer retention teams.
+
+### ⚠️ Alerts Shown (Cards / Conditional Formatting)
+
+- Customers with **3+ months no activity**
+
+- Customers with balance drop > 30%
+
+- Customers reducing product count (4 → 2)
+
+- Low-credit-score customers trending downward
+
+- High churn regions (geo-level thresholds)
+
+### 📊 Visuals
+**1. Activity Decline Monitor (Line Chart + Flags)**
+
+- Drop in transactions
+
+- Flags customers with significant downward trends
+
+**2. Low-Product Customers (Table)**
+
+Columns:
+
+- Customer ID
+
+- Tenure
+
+- Current products
+
+- Churn probability
+
+- Suggested upsell
+
+**3. High-Risk Customer List (Table)**
+
+Attributes:
+
+- Risk Score
+
+- Balance trend
+
+- Product count
+
+- Last activity date
+
+- Recommended retention action
+
+**4. Geography x Age Risk Matrix**
+
+Shows where the bank should prioritize retention efforts.
+
