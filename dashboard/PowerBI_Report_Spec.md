@@ -11,18 +11,18 @@ Provide a high-level snapshot of the bank’s churn performance at a glance—id
 
 ### 🔑 KPIs (Card Visuals)
 
-- Overall Churn Rate (12-month rolling or total)
+- **Overall Churn Rate** (12-month rolling or total)
 
-- Total Customers vs Churned Customers
+- **Total Customers vs Churned Customers**
 
-- Active Customers
+- **Active Customers**
 
-- Average Tenure
+- **Average Tenure
 
-- Average Balance (Churned vs Non-Churned)
+- **Average Balance (Churned vs Non-Churned)**
 
 ### 📉 Visuals
-1. Churn Trend (Line Chart)
+**1. Churn Trend (Line Chart)**
 
 - X-axis: Month/Year
 
@@ -32,7 +32,7 @@ Provide a high-level snapshot of the bank’s churn performance at a glance—id
 
 - Drill-down enabled (Year → Quarter → Month)
 
-2. Churn by Geography (Map or Filled Map)
+**2. Churn by Geography (Map or Filled Map)**
 
 - Churn rate by country/state/city
 
@@ -40,7 +40,7 @@ Provide a high-level snapshot of the bank’s churn performance at a glance—id
 
 - Region slicer (optional)
 
-3. Churn by Age Group (Column Chart)
+**3. Churn by Age Group (Column Chart)**
 
 - Age Bins: 18–30, 31–45, 46–60, 60+
 
@@ -48,13 +48,13 @@ Provide a high-level snapshot of the bank’s churn performance at a glance—id
 
 - Tooltips with avg credit score per group
 
-4. Churn by Tenure (Bar or Ribbon Chart)
+**4. Churn by Tenure (Bar or Ribbon Chart)**
 
 - Segments: New (<1 year), Mid (1–3 years), Long-Term (>3 years)
 
 - Reveals loyalty and retention gaps
 
-5. Churn by Product Count (Stacked Bar)
+**5. Churn by Product Count (Stacked Bar)**
 
 - 1 product → highest churn
 
