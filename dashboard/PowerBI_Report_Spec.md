@@ -218,3 +218,63 @@ Weighted financial health indicator:
 ```
 CreditScore + Balance + ProductsCount + IncomeIndex
 ```
+
+5️⃣ Churn Drivers & Insights
+🎯 Purpose
+
+Identify the root causes and strongest indicators of churn.
+
+📊 Visuals
+**1. Churn Contributors (Feature Importance)**
+
+If ML model used, show:
+
+- SHAP values
+
+- Top 10 churn drivers
+
+- Example drivers:
+
+      - Low tenure
+
+      - Low activity
+
+      - Few products
+
+      - Low balance
+
+      - High credit score volatility
+
+      - High geographic churn
+
+**2. Churn vs Non-Churn Comparison (Side-by-Side Bars)**
+
+Compare both groups on:
+
+- Balance
+
+- Credit Score
+
+- Activity
+
+- Product Count
+
+- Age
+
+- Salary
+
+**3. Distribution of Churn-Heavy Features**
+
+- Boxplots / violin charts
+
+- e.g., low balance concentrated among churned customers
+
+**4. Customer Personas (Card Visuals)**
+
+Examples:
+
+- “Young Low-Engagement”
+
+- “Mid-Tenure High-Value”
+
+- “At-Risk Credit Card Only Users”
