@@ -134,3 +134,45 @@ Clusters:
 
 - Each segment includes churn overlay
 
+## 3️⃣ Product Performance
+### 🎯 Purpose
+
+Analyze banking product adoption, cross-sell opportunities, and churn correlation.
+
+### 📊 Visuals
+**1. Product Usage by Churners vs Non-Churners (Clustered Bar)**
+
+- Reveals which products churned customers commonly held
+
+- Example: Low credit card adoption among churners
+
+**2. Product Adoption Funnel**
+
+1.Total Customers
+
+2.Customers with ≥1 Product
+
+3.Customers with Loan
+
+4.Customers with Credit Card
+
+5.Customers with Savings + Investments
+
+Shows drop-offs and cross-sell leakage.
+
+**3. Cross-Sell Score (Heatmap)**
+
+A product affinity matrix:
+
+```nginx
+Loan ↔ Credit Card
+Mortgage ↔ Savings
+Credit Card ↔ Investment
+
+```
+
+Helps identify what to offer next for retention.
+
+**4. Revenue Contribution by Product (Treemap)**
+
+- Helps prioritize retention for high-value products
