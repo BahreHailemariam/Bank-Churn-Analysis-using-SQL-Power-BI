@@ -176,3 +176,45 @@ Helps identify what to offer next for retention.
 **4. Revenue Contribution by Product (Treemap)**
 
 - Helps prioritize retention for high-value products
+
+## 4️⃣ Financial Health
+### 🎯 Purpose
+
+Show financial KPIs and determine whether **financial pressure is driving churn**.
+
+### 📊 Visuals
+**1. Balance Trend (Line Chart)**
+
+- Tracks customer balances over time
+
+- Compare churned vs retained customers
+
+- Allows “Balance Drop” anomaly detection
+
+**2. Credit Score Distribution (Histogram)**
+
+- Low credit score brackets often correlate with churn
+
+- Highlight high-risk bands (<550, 550–650)
+
+**3. Salary vs Churn Heatmap**
+
+- Salary bands vs churn rate
+
+- Shows financial stress segments
+
+**4. Deposit Activity Trend (Area Chart)**
+
+- Total deposits per month
+
+- Sharp declines often precede churn
+
+- Tooltip shows churn probability average
+
+**5. Product Value Index (KPI)**
+
+Weighted financial health indicator:
+
+```
+CreditScore + Balance + ProductsCount + IncomeIndex
+```
