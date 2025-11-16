@@ -335,3 +335,18 @@ Attributes:
 
 Shows where the bank should prioritize retention efforts.
 
+## 🧭 Recommended Slicers
+
+- Geography
+
+- Gender
+
+- Credit Score Range
+
+- Tenure
+
+- Product Count
+
+- Date Range
+
+- Risk Level
