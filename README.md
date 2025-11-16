@@ -1,6 +1,6 @@
 # 🏦 Bank Churn Analysis using SQL & Power BI
 
-Customer retention analytics for banking using SQL-based feature engineering and Power BI dashboards.
+_Customer retention analytics for banking using SQL-based feature engineering and Power BI dashboards._
 
 ## 📌 Project Overview
 
